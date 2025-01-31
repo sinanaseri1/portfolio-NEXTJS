@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body.parallax-bg {
+  background-image: url("/Metallic Toad.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #7c3aed, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#about h2 {
+  background: linear-gradient(to right, #7c3aed, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#projects h2 {
+  background: linear-gradient(to right, #ff227e, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#tech-stack h2 {
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#contact-me h2 {
+  background: linear-gradient(to right, #ed46fc, #3f5efb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#about {
+  scroll-margin-top: 100px;
+}
